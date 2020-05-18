@@ -1,0 +1,412 @@
+/*						*/
+/* 		general assets	*/
+/*						*/
+.section-divider{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 45px;
+	background-color:transparent;
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #42454A
+;
+}
+
+.icon{
+	width: 24px;
+	height:24px;
+	fill: #CBCBCB;
+}
+
+.icon:hover{
+	fill: #42454A;
+}
+
+.icon-png {
+  display: block;
+  margin-left: auto;
+  margin-right: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.modal-box {
+	position: absolute;
+	transition: 0.3s;
+	z-index: 5;
+	display: none;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-left: 6px solid #006EA0;
+	border-radius: 5px;
+	min-width: 200px;
+	min-height:125px;
+	font-family: 'Roboto', sans-serif;
+}
+.close-button {
+  border: none;
+  display: inline-block;
+  padding: 2px 4px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap
+}
+
+.topright {
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+/*						*/
+/* 		title			*/
+/*						*/
+.logo-bar {
+	min-height:30px;
+}
+.title-area{
+	background-color: #00C3AE;
+	min-height: 100px;	
+}
+
+.title-header {
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	color: #42454A;
+}
+p.title-footer {
+	font-family: 'Roboto', sans-serif;
+	color: #42454A;
+}
+
+/*						*/
+/*cards and result content*/
+/*						*/
+.card-preview {
+	width:100%;
+	min-height: 160px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	/*border-left: 8px solid #00AFFF;
+	border-radius: 5px; */
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.card-results {
+	width:100%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	/*border-left: 8px solid #00AFFF;
+	border-radius: 5px; */
+	background-color: white;
+	
+}
+
+.value-box {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	min-height: 160px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+table{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+
+th {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	width: 12%;
+	padding: 5px;
+	
+}
+
+.table-div{
+	width: 100%;
+	position: relative;
+	margin-bottom:12px;
+}
+.table-rows{
+	border-bottom: 1px solid lightgray;
+	color: lightgray;
+}
+
+.table-rows:first-child{	
+	color:transparent;
+	border-bottom: 1px solid transparent;
+}
+
+.table-rows:nth-child(6){	
+	color:gray;
+	border-bottom: 1px solid transparent;
+}
+
+
+.table-rows-text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	margin-top:auto;
+	margin-bottom: auto;
+	min-height: 40px;
+	padding-top: 10px;
+}
+
+.column-cards{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+td {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	width: 12%;
+	height: 70px;
+	padding: 5px;
+}
+
+td:first-child{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight:900;
+	width: 30%;
+	height: 70px;
+	padding: 5px;
+}
+
+tr { 
+	border: solid #00AFFF;
+	border-width: 1px 0;
+}
+
+tr:hover{
+	background-color: lightgray;
+}
+
+tr:first-child {
+  border-top: none;
+}
+tr:last-child {
+  border-bottom: none;
+}
+
+
+/*						*/
+/* 		big button		*/
+/*						*/
+.button {
+  background-color: #00C3AE; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+}
+
+.button:focus {outline:0;}
+
+/*						*/
+/* 		slider			 */
+/*						*/
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 15px; /* Specified height */
+  background: #CBCBCB; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 15px; 
+  border: 4px solid #00AFFF;
+  background: #00AFFF;
+  cursor: pointer;
+}
+
+.sliderContainer{
+	width: 100%;
+    position: relative;
+	font-family: 'Roboto', sans-serif;
+}
+
+.range-value{
+    position: absolute;
+    top: -50%;
+}
+.range-value span{
+    width: 45px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #00AFFF;
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+	border: 1px solid #fff;
+}
+.range-value span:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #00AFFF;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -1px;
+}
+/*						*/
+/* chart and svg items */
+/*						*/
+.chart-container {
+	width:100%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	/*border-left: 8px solid #00AFFF;
+	border-radius: 5px; */
+	background-color: white;
+}
+
+.chart {
+	min-width: 150px;
+	min-height: 275px;
+	background-color: white;
+}
+text.tearDrop {
+	font-family: 'Roboto', sans-serif;
+	fill: white;
+}
+text {
+	font-family: 'Roboto', sans-serif;
+	fill: #42454A;
+}
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.x.label {
+	font-size: 13px;
+	fill: #42454A;
+}
+
+.x.axis line {
+  stroke: #42454A;
+  opacity:0.3;
+}
+
+.x.axis .minor {
+  stroke-opacity: .5;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.y.axis line{
+  stroke: #42454A;
+  opacity:0.2;
+}
+
+.y.axis path {
+  display: none;
+}
+
+.y-bar.axis line{
+  stroke: #42454A;
+  opacity:0.2;
+}
+
+.y-bar.axis path {
+  display: none;
+}
+
+.y-line.axis line{
+  stroke: #42454A;
+  opacity:0.2;
+}
+
+.y-line.axis path {
+  display: none;
+}
+
+/*  chart rollover */
+.toolTip {
+	pointer-events: none;
+	position: absolute;
+	display: none;
+	min-width: 125px;
+	height: auto;
+	background: none repeat scroll 0 0 #ffffff;
+	border-left: 6px solid #006EA0;
+	border-radius: 5px;
+	min-width: 200px;
+	min-height:100px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.3;
+	box-shadow: 0px 3px 9px rgba(0, 0, 0, .15);
+}
+
+.toolTipTitle {
+	min-height: 35px;
+}
+.toolTipTitle span{
+	font-family:Roboto, sans-serif;
+	font-weight:900;
+	min-width: 125px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	display:block;
+}
+.toolTipBody {
+	min-width: 120px;
+	min-height: 35px;
+	margin-top: 10px;
+	margin-left: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-align: left;
+	font-family:Roboto, sans-serif;
+}
+
+#footer{
+	background-color: #00C3AE;
+	min-height: 100px;	
+}
