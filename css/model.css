@@ -1956,3 +1956,22 @@ tr:last-child {
 		border-bottom: 3px solid #eee;
 	}
 }
+.title-area {
+	padding: 20px 0 10px 0;
+}
+.story-content span {
+	display: inline-block;
+	font-size: 16px;
+	min-height: 51px;
+}
+.card-preview {
+	padding: 20px 10px;
+}
+.assumptions .row {
+	border: none;
+	text-align: center !important;
+}
+.assumption-item {
+	border: none;
+	padding: 0 15px;
+}

@@ -487,10 +487,12 @@ function buildResults(){
 	$('.assumptions').toggleClass('full-open');
 	if($('#submit').hasClass('active')) {
 		$('.full-results').slideUp();
+		$('#submit').attr('value', 'See full results');
 		$('#submit').removeClass('active');
 	} else {
 		$('.full-results').slideDown();
 		$('#submit').addClass('active');
+		$('#submit').attr('value', 'Hide Results');
 	}
 	
 	const resultsData = sim_data.filter(function(d){
@@ -874,7 +876,9 @@ assumptions.selectAll('ls')
 // d3.select("#simulator").append('div').attr('id', 'footer').style('margin-top', '10px');
 $('#balClmPt').on('change', function() {
 	$('#submit').removeClass('active');
+	$('#submit').attr('value', 'See full results');
 })
 $('#initFund').on('change', function() {
 	$('#submit').removeClass('active');
+	$('#submit').attr('value', 'See full results');
 })
